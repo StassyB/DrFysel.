@@ -106,16 +106,38 @@
   margin-bottom: 15px;
 }
 
+/* Team Section - uniform images and cards */
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.team-member .member-img {
+  width: 100%;
+  height: 300px;      /* same height for all images */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .team-member .member-img img {
   width: 100%;
-  height: 300px;       /* uniform height for all images */
-  object-fit: cover;    /* crop to fit without distortion */
+  height: 100%;
+  object-fit: cover;   /* crop images nicely */
   display: block;
 }
 
 .team-member .member-info h4 {
   margin-top: 10px;
   margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 .team-member .member-info span {
@@ -134,6 +156,7 @@
 .team-member .social a:hover {
   color: #007bff;
 }
+
 
 #appointment {
   padding: 60px 0;
@@ -211,21 +234,19 @@ font-weight: normal; /* Ensure the font is normal */
     
   </style>
        <!-- Team Section -->
-  <!-- Team Section -->
-<section id="team" class="team section">
 
-  <!-- Section Title -->
+<section id="team" class="team section">
   <div class="container section-title" data-aos="fade-up">
     <h2>Our Doctors</h2>
     <hr>
-    <p>Our staff of dermatologists offers expert guidance and comprehensive treatment for a wide range of skin, hair, and nail health issues. From dandruff and dermatitis to photoaging, rashes, rosacea, skin tags, skin cancer, and warts, our team is dedicated to providing exceptional care and personalized treatment options.</p>
+    <p>Our staff of dermatologists offers expert guidance and comprehensive treatment for a wide range of skin, hair, and nail health issues.</p>
   </div>
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
     <div class="row gy-5">
 
       <!-- Doctor 1 -->
-      <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+      <div class="col-xl-4 col-md-6 d-flex">
         <div class="team-member">
           <div class="member-img">
             <img src="assets/img/blog/comments-6.jpg" alt="Doctor Elias">
@@ -238,14 +259,13 @@ font-weight: normal; /* Ensure the font is normal */
               <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
             <h4>Doctor Elias</h4>
-            <span>12 Years Experience</span>
-            <span>Tikur Anbessa / ALERT Hospital / Dr Feysel Dermatology Clinic</span>
+            <span>Dermatology & Venereology</span>
           </div>
         </div>
       </div>
 
       <!-- Doctor 2 -->
-      <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+      <div class="col-xl-4 col-md-6 d-flex">
         <div class="team-member">
           <div class="member-img">
             <img src="assets/img/team/team-2.jpg" alt="Doctor Selemon">
@@ -264,7 +284,7 @@ font-weight: normal; /* Ensure the font is normal */
       </div>
 
       <!-- Doctor 3 -->
-      <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+      <div class="col-xl-4 col-md-6 d-flex">
         <div class="team-member">
           <div class="member-img">
             <img src="assets/img/testimonials/testimonials-2.jpg" alt="Doctor Elias">
@@ -284,8 +304,8 @@ font-weight: normal; /* Ensure the font is normal */
 
     </div>
   </div>
-
 </section>
+
 
  <hr>
      <!-- Appointment Booking Section -->
