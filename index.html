@@ -26,7 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body class="index-page">
@@ -45,9 +45,9 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="services.html"> Our Services</a></li>
+        <li><a href="index.html">Home<br></a></li>
+          <li><a href="aboutus.html" class="active" >About Us</a></li>
+          <li><a href="services.html" > Our Services</a></li>
           <li><a href="gallary.html">Gallery</a></li>
           <li><a href="doc.html">Doctors</a></li>
           <li><a href="contact.html" >Contact</a></li>
@@ -80,33 +80,34 @@
   </header>
 
   <main class="main">
-    <style>
+
+  <style>
     
-      .carousel-item img {
-        max-height: 500px; 
-        object-fit: cover;
-        width: 100%;}
-  
-        .justified-text {
-         text-align: justify;
-  }
-  
-  #appointment {
-    padding: 60px 0;
-    background: #f7f9fa;
-  }
-  h2 {
-    font-family: Arial, sans-serif; /* Choose your preferred font */
-    font-size: 20px; /* Adjust the size as needed */
-    color: #333; /* Set the color */
-    font-weight: bold; /* Ensure the font is bold */
-    text-align: center; /* Center the text, if desired */
-    margin-top: 20px; /* Add some margin at the top */
-    margin-bottom: 20px; /* Add some margin at the bottom */
+    .carousel-item img {
+      max-height: 500px; 
+      object-fit: cover;
+      width: 100%;}
+
+      .justified-text {
+       text-align: justify;
+}
+
+#appointment {
+  padding: 60px 0;
+  background: #f7f9fa;
+}
+h2 {
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+  font-size: 20px; /* Adjust the size as needed */
+  color: #333; /* Set the color */
+  font-weight: bold; /* Ensure the font is bold */
+  text-align: center; /* Center the text, if desired */
+  margin-top: 20px; /* Add some margin at the top */
+  margin-bottom: 20px; /* Add some margin at the bottom */
 }
 h1 {
-  font-size: 32px; /* Adjust the size as needed */
-  font-weight: bold; /* Ensure the font is bold */
+font-size: 32px; /* Adjust the size as needed */
+font-weight: bold; /* Ensure the font is bold */
 }
 
 h3 {
@@ -119,53 +120,53 @@ font-size: 17px; /* Adjust the size as needed */
 color: #1a1919;
 font-weight: normal; /* Ensure the font is normal */
 }
-  .html-email-form {
-    background: #fff;
-    padding: 30px;
-    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+.html-email-form {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+.btn-getstarted {
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.3s;
+  background: #0ea2bd;
+  border: none;
+}
+.btn-getstarted:hover {
+  background: #098aa1;
+}
+  .about-img img {
+    display: block; /* Ensure the image behaves as a block element */
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Allows absolute positioning within the container */
+    top: 0;
+    left: 0;
+    cursor: grab; /* Change cursor to indicate draggability */
   }
-  .btn-getstarted {
-    border-radius: 50px;
-    padding: 10px 30px;
-    color: #fff;
-    transition: 0.3s;
-    background: #0ea2bd;
-    border: none;
-  }
-  .btn-getstarted:hover {
-    background: #098aa1;
-  }
-    .about-img img {
-      display: block; /* Ensure the image behaves as a block element */
-      width: 100%; /* Make the image fill its container */
-      height: auto; /* Maintain aspect ratio */
-      position: absolute; /* Allows absolute positioning within the container */
-      top: 0;
-      left: 0;
-      cursor: grab; /* Change cursor to indicate draggability */
-    }
-    .tick-list {
-      list-style-type: none; /* Remove default bullets */
-      padding: 0; /* Remove padding */
-      text-align: left; /* Align list items to the right */
-  }
-      
-      .tick-list li {
-          position: relative; /* Create a positioning context */
-          padding-left: 25px; /* Space for the tick */
-      }
-      
-      .tick-list li::before {
-          content: "\2713"; /* Unicode character for tick */
-          position: absolute; /* Position it absolutely */
-          left: 0; /* Align to the left */
-          color: rgb(0, 124, 128); /* Tick color */
-          font-size: 1.2em; /* Tick size */
-      }
+  .tick-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove padding */
+    text-align: left; /* Align list items to the right */
+}
     
-      
-      
-    </style>
+    .tick-list li {
+        position: relative; /* Create a positioning context */
+        padding-left: 25px; /* Space for the tick */
+    }
+    
+    .tick-list li::before {
+        content: "\2713"; /* Unicode character for tick */
+        position: absolute; /* Position it absolutely */
+        left: 0; /* Align to the left */
+        color: rgb(0, 124, 128); /* Tick color */
+        font-size: 1.2em; /* Tick size */
+    }
+  
+    
+    
+  </style>
       <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
