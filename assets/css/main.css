@@ -48,6 +48,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Smooth scroll for all pages */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
