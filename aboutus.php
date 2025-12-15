@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Dr Feysel Dermatology Specialized Clinic</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/4.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+  
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      
+      <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/4.png" alt="Logo" style="max-width: 100%; max-height: 100px;">
+        <!-- <h1 class="sitename">HeroBiz</h1> -->
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+        <li><a href="index.html">Home<br></a></li>
+          <li><a href="aboutus.php" class="active" >About Us</a></li>
+          <li><a href="services.php" > Our Services</a></li>
+          <li><a href="gallary.php">Gallery</a></li>
+          <li><a href="doc.php">Doctors</a></li>
+          <li><a href="contact.php" >Contact</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        <!-- </ul> -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav> 
+
+      <a class="btn-getstarted" href="#appointment">Book Appointment</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+  <style>
+    
+    .carousel-item img {
+      max-height: 500px; 
+      object-fit: cover;
+      width: 100%;}
+
+      .justified-text {
+       text-align: justify;
+}
+
+#appointment {
+  padding: 60px 0;
+  background: #f7f9fa;
+}
+h2 {
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+  font-size: 20px; /* Adjust the size as needed */
+  color: #333; /* Set the color */
+  font-weight: bold; /* Ensure the font is bold */
+  text-align: center; /* Center the text, if desired */
+  margin-top: 20px; /* Add some margin at the top */
+  margin-bottom: 20px; /* Add some margin at the bottom */
+}
+h1 {
+font-size: 32px; /* Adjust the size as needed */
+font-weight: bold; /* Ensure the font is bold */
+}
+
+h3 {
+font-size: 20px; /* Adjust the size as needed */
+font-weight: bold; /* Ensure the font is bold */
+color: #222121;
+}
+p {
+font-size: 17px; /* Adjust the size as needed */
+color: #1a1919;
+font-weight: normal; /* Ensure the font is normal */
+}
+.php-email-form {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+.btn-getstarted {
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.3s;
+  background: #0ea2bd;
+  border: none;
+}
+.btn-getstarted:hover {
+  background: #098aa1;
+}
+  .about-img img {
+    display: block; /* Ensure the image behaves as a block element */
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Allows absolute positioning within the container */
+    top: 0;
+    left: 0;
+    cursor: grab; /* Change cursor to indicate draggability */
+  }
+  .tick-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove padding */
+    text-align: left; /* Align list items to the right */
+}
+    
+    .tick-list li {
+        position: relative; /* Create a positioning context */
+        padding-left: 25px; /* Space for the tick */
+    }
+    
+    .tick-list li::before {
+        content: "\2713"; /* Unicode character for tick */
+        position: absolute; /* Position it absolutely */
+        left: 0; /* Align to the left */
+        color: rgb(0, 124, 128); /* Tick color */
+        font-size: 1.2em; /* Tick size */
+    }
+  
+    
+    
+  </style>
+   
+  <!-- About Section -->
+  <section id="about" class="about section">
+
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>About Us</h2><hr>
+  <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+</div><!-- End Section Title -->
+
+<div class="container" data-aos="fade-up">
+
+  <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+    <div class="col-lg-5">
+      <div class="about-img">
+        <img src="assets/img/2021-12-18.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <div class="col-lg-7">
+      <h3 class="pt-0 pt-lg-5"><b>Our Commitment </b></h3>
+
+      <!-- Tab Content -->
+      <div class="tab-content">
+
+        <div class="tab-pane fade show active" id="about-tab1">
+
+          <p>At Doctor Feysel Specialized dermatology clinic, we understand that healthy skin is not just about appearance; it’s about overall health. Our team of experienced dermatologists is committed to providing top-notch, patient-centered care. We specialize in diagnosing and treating a wide range of dermatological conditions, ensuring that you receive the personalized attention and effective solutions you deserve.</p>
+
+          <div class="d-flex align-items-center mt-4">
+            <!-- <i class="bi bi-check2"></i> -->
+            <h3><b> Expertise You Can Trust </b></h3>
+          </div>
+          <p>Our dermatologists are highly trained and board-certified, bringing a wealth of experience to every consultation. Whether you’re seeking treatment for a specific skin condition, considering cosmetic dermatology procedures, we have the expertise to address your unique needs.</p>             
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section><!-- /About Section -->
+<hr>
+
+    <section id="hero" class="hero section">
+
+      <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+        <p>At Doctor Feysel Specialized dermatology clinic, your premier destination for comprehensive dermatological care. At our specialized clinic, we are dedicated to promoting healthy skin and enhancing your overall well-being.</p>
+        <div class="d-flex">
+          <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+    <hr>
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3>Why choose us</h3>
+              <p>
+                Choose Doctor Feysel Specialized dermatology clinic for excellence in dermatological care. Your journey to healthier, radiant skin starts here. Schedule your appointment today and experience the difference our specialized clinic can make in your skin health.
+  </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Expertise</h3>
+                <div class="faq-content">
+                  <p>Our team of board-certified dermatologists brings years of experience and expertise to provide top-notch care.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Comprehensive Care</h3>
+                <div class="faq-content">
+                  <p>From general dermatology to specialized treatments, we offer a wide range of services for all your skin health needs.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Patient-Centric Approach</h3>
+                <div class="faq-content">
+                  <p>Your well-being is our priority. We listen, educate, and collaborate to create personalized care plans tailored to your unique needs.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Innovation</h3>
+                <div class="faq-content">
+                  <p>Our clinic is equipped with state-of-the-art technology, ensuring you receive the latest advancements in dermatological care.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Convenience</h3>
+                <div class="faq-content">
+                  <p>Easily schedule appointments online and experience efficient, timely, and hassle-free service.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Cosmetic Excellence</h3>
+                <div class="faq-content">
+                  <p>Discover a range of cosmetic dermatology treatments designed to enhance your natural beauty with precision and care.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Pediatric-Friendly</h3>
+                <div class="faq-content">
+                  <p>Our specialized pediatric dermatology services cater to the unique needs of our younger patients, ensuring gentle and effective care.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Skin Cancer Prevention</h3>
+                <div class="faq-content">
+                  <p>Benefit from our proactive approach to skin cancer screenings, early detection, and prevention.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Holistic Solutions</h3>
+                <div class="faq-content">
+                  <p>Whether you’re dealing with common skin conditions, allergies, or seeking aesthetic improvements, we offer holistic solutions for your skin health.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Telemedicine Options</h3>
+                <div class="faq-content">
+                  <p>Access virtual consultations for certain dermatological concerns, bringing the expertise of our dermatologists to the comfort of your home.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+
+    
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Dr feysel dermatology clinic</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>XPQ4+5V6, Addis Ababa</p>
+              <p>011 832 3201</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>0118 322653</span></p>
+              <p class="mt-3"><strong>Phone:</strong> <span>093 571 4919</span></p>
+              <p><strong>Email:</strong> <span>doctorfeyseldermaclinic@gmail.com</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Book an Appointment</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">General Dermatology</a></li>
+              <li><a href="#">Dermatologic Surgery</a></li>
+              <li><a href="#">Cosmetic Dermatology</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Cosmetic Dermatology</a></li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>     
