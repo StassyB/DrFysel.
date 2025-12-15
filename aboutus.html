@@ -74,7 +74,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav> 
 
-      <a class="btn-getstarted" href="index.html#appointment">Book Appointment</a>
+      <a class="btn-getstarted" href="#appointment">Book Appointment</a>
 
     </div>
   </header>
@@ -338,7 +338,50 @@ font-weight: normal; /* Ensure the font is normal */
       </div>
 
     </section><!-- /Faq Section -->
+ <!-- Appointment Booking Section -->
+<section id="appointment" class="appointment section">
 
+
+
+    <div class="row gy-5 gx-lg-5">
+      <div class="col-lg-8 offset-lg-2">
+       
+        <form action="forms/appointment.html" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <h2><b></b>Book an Appointment</h2></b></h2>
+            <p>Fill in the form below to schedule an appointment with us.</p><br><br><br>
+            <div class="col-md-6 form-group">
+             
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 form-group">
+              <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="date" class="form-control" name="date" id="date" placeholder="Appointment Date" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message (optional)"></textarea>
+          </div>
+          <div class="my-3">
+            <button type="submit" class="btn-getstarted">Book Appointment</button>
+          </div>
+        </form>
+      </div><!-- End Appointment Form -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Appointment Booking Section -->
+<!-- /Appointment Booking Section -->
+    
 
     
   </main>
